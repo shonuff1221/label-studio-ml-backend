@@ -46,7 +46,7 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"  # for macos and unix      
     ports:
-      - "9090:9090"
+      - "9095:9090"
     volumes:
       - "./data/server:/data"
       - "./models:/app/models"
